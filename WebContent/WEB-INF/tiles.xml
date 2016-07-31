@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE tiles-definitions PUBLIC        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd"> 
+<tiles-definitions> 
+ <definition name="welcome" template="/Welcome.jsp">                
+	<put-attribute name="body" value="/Welcome.jsp" />    
+ </definition>  
+  <definition name="Home" template="/Home.jsp">                
+	<put-attribute name="body" value="/Home.jsp" />    
+ </definition>  
+  <definition name="Angular" template="/Angular.jsp">                
+	<put-attribute name="body" value="/Angular.jsp" />    
+ </definition>  
+</tiles-definitions> 
+
+
